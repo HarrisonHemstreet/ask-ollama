@@ -1,0 +1,18 @@
+[package]
+name = "ask-ollama"
+authors = [
+  "Harrison Hemstreet <https://github.com/HarrisonHemstreet> <HarrisonHemstreet@proton.me>",
+]
+version = "0.1.0"
+edition = "2021"
+description = "Query any LLM found on Ollama from the terminal!"
+documentation = "https://github.com/HarrisonHemstreet/ask-ollama/blob/main/README.md"
+readme = "README.md"
+homepage = "https://github.com/HarrisonHemstreet/ask-ollama"
+repository = "https://github.com/HarrisonHemstreet/ask-ollama"
+keywords = ["LLM", "Ollama", "AI", "Chatbot", "CLI"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
