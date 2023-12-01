@@ -7,6 +7,19 @@ use std::time::Duration;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+
+    // Check if the first argument is --help
+    if args.len() >= 1 && args[1] == "--help" {
+        print_help();
+        return;
+    }
+
+    // Check for --version argument
+    if args.len() >= 1 && args[1] == "--version" {
+        println!("ask-ollama version: {}", env!("CARGO_PKG_VERSION"));
+        return;
+    }
+
     let mut model = String::from("mistral");
     let mut question =
         String::from("Tell me that I forgot to ask you a question. Ask me to ask you a question.");
@@ -54,6 +67,15 @@ fn main() {
 
     // Run the command with the specified model and question
     run_ollama(&model, &question).expect("Failed to run Ollama");
+}
+
+fn print_help() {
+    println!("Usage: ask [OPTIONS] [PROMPT]");
+    println!("Ask questions to Ollama.");
+    println!("\nOptions:");
+    println!("  --model=[MODEL]    Specify the model to use. Default is 'mistral' if no model is provided");
+    println!("  --version          Show version information");
+    println!("  [PROMPT]           The question to ask Ollama");
 }
 
 fn ollama_installed() -> bool {
