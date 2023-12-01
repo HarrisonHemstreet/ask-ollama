@@ -1,6 +1,6 @@
 # Ask-Ollama
 
-Ask-Ollama is a command-line tool that allows users to interact with the Ollama models directly from the terminal. This tool provides a simple and intuitive way to ask questions and receive responses from Ollama models.
+Ask-Ollama is a command-line tool that allows users to interact with the [Ollama](https://ollama.ai/) LLM models directly from the terminal. This tool provides a simple and intuitive way to ask questions and receive responses from Ollama models.
 
 ## Features
 
