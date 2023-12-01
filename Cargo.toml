@@ -3,7 +3,7 @@ name = "ask-ollama"
 authors = [
   "Harrison Hemstreet <https://github.com/HarrisonHemstreet> <HarrisonHemstreet@proton.me>",
 ]
-version = "1.0.4"
+version = "1.0.5"
 edition = "2021"
 description = "Query any LLM found on Ollama from the terminal!"
 documentation = "https://github.com/HarrisonHemstreet/ask-ollama/blob/main/README.md"
