@@ -48,6 +48,7 @@ Specifying a different model:
 ```sh
 ask --model=gale "Explain the theory of relativity"
 ```
+Find all available models from Ollama [here](https://ollama.ai/library).
 
 Checking the version:
 
