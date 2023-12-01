@@ -67,4 +67,3 @@ Contributions to Ask-Ollama are welcome! If you have suggestions for improvement
 ## License
 
 Ask-Ollama is licensed under the MIT License.
-```
