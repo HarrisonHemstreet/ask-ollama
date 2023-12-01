@@ -61,6 +61,9 @@ Seeing the help info:
 ask --help
 ```
 
+### Watch the YouTube Video Here! (click on the image)
+[![How to use ask-ollama](https://i.imgur.com/Pgr5FZl.png)](https://www.youtube.com/watch?v=05GynRi9NAQ)
+
 ## Contributing
 
 Contributions to Ask-Ollama are welcome! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request on our [GitHub repository](https://github.com/HarrisonHemstreet/ask-ollama).
